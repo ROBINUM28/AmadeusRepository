@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fa5c682c-ef51-4087-a23c-3616da2c049c": {
+      "ProjectGuid": "fa5c682c-ef51-4087-a23c-3616da2c049c",
+      "DisplayName": "Amadeus.Api",
+      "ColorIndex": 0
+    },
+    "9bc5b3e9-c2ab-46c1-9e34-36159b238179": {
+      "ProjectGuid": "9bc5b3e9-c2ab-46c1-9e34-36159b238179",
+      "DisplayName": "Amadeus.TestNUnit",
+      "ColorIndex": 1
+    },
+    "54f641e3-11fd-4e9e-aad0-c597d482c9d0": {
+      "ProjectGuid": "54f641e3-11fd-4e9e-aad0-c597d482c9d0",
+      "DisplayName": "Amadeus.DAL",
+      "ColorIndex": 2
+    },
+    "234ad5ae-c32a-44f6-9b99-0879bb054903": {
+      "ProjectGuid": "234ad5ae-c32a-44f6-9b99-0879bb054903",
+      "DisplayName": "Amadeus.BL",
+      "ColorIndex": 3
+    },
+    "e09cd0ff-a1f5-4817-ad8c-7580ba3713da": {
+      "ProjectGuid": "e09cd0ff-a1f5-4817-ad8c-7580ba3713da",
+      "DisplayName": "Amadeus.Entities",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    },
+    "5d50038b-52f4-4cfc-9026-b28708efb5ac": {
+      "ProjectGuid": "5d50038b-52f4-4cfc-9026-b28708efb5ac",
+      "DisplayName": "Amadeus.Utility",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

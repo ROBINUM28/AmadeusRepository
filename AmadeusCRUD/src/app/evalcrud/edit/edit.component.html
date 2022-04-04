@@ -1,0 +1,91 @@
+
+<div class="container">
+
+
+  <h1>Edit Register Travel</h1>
+<p></p>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#" routerLink="/evalcrud/index" >All Data</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Edit Data</li>
+  </ol>
+</nav>
+
+
+
+  <div class="card">
+    <div class="card-header">
+      Data from {{ evalcrud.id }} / {{ evalcrud.name }}
+    </div>
+    <div class="card-body">
+  <form [formGroup]="form" (ngSubmit)="submit()">
+
+      <div class="form-group">
+          <label for="name">Name Passager</label>
+          <input
+              formControlName="name"
+              id="name"
+              type="text"
+              [(ngModel)]="evalcrud.name"
+              class="form-control">
+
+      </div>
+
+      <div class="form-group">
+          <label for="observations">Observations</label>
+          <textarea
+              formControlName="observations"
+              id="observations"
+              type="text"
+              [(ngModel)]="evalcrud.observations"
+              class="form-control">
+          </textarea>
+
+      </div>
+
+
+      <div class="form-group">
+        <label for="startDate">Date Star Travel</label>
+        <input
+            formControlName="startDate"
+            id="startDate"
+            type="date"
+            [(ngModel)]="evalcrud.startDate"
+            class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Passager</label>
+      <input
+          formControlName="email"
+          id="email"
+          type="email"
+          [(ngModel)]="evalcrud.email"
+          class="form-control">
+  </div>
+
+  <div class="form-group">
+    <label for="active">Travel Active</label>
+    <input
+        formControlName="active"
+        id="active"
+        type="checkbox"
+        [(ngModel)]="evalcrud.active"
+        class="form-control">
+</div>
+
+<div class="form-group">
+  <label for="nacionality">Nacionality</label>
+  <input
+      formControlName="nacionality"
+      id="nacionality"
+      type="text"
+      [(ngModel)]="evalcrud.nacionality"
+      class="form-control">
+</div>
+<p></p>
+      <button class="btn btn-primary" type="submit">Update</button>
+  </form>
+</div>
+</div>
+</div>

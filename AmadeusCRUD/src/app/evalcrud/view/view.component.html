@@ -1,0 +1,60 @@
+
+<div class="container">
+
+
+  <h1>View Data Travel</h1>
+<p></p>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#" routerLink="/evalcrud/index" >All Data</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Data Register</li>
+  </ol>
+</nav>
+
+    <div class="card">
+      <div class="card-header">
+        Data from {{ evalcrud.name }}
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-sm">
+            <strong>ID Travel:</strong>
+            <p>{{ evalcrud.id }}</p>
+          </div>
+          <div class="col-sm">
+            <strong>Start Date:</strong>
+            <p>{{ evalcrud.startDate }}</p>
+          </div>
+          <div class="col-sm">
+            <strong>Name Passager:</strong>
+            <p>{{ evalcrud.name }}</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <strong>Email:</strong>
+            <p>{{ evalcrud.email }}</p>
+          </div>
+          <div class="col-sm">
+            <strong>Travel Active</strong>
+            <p>{{ evalcrud.active }}</p>
+          </div>
+          <div class="col-sm">
+            <strong>Nacionality:</strong>
+            <p>{{ evalcrud.nacionality }}</p>
+          </div>
+        </div>
+             <div class="row">
+          <div class="col-sm">
+            <strong>Observations:</strong>
+            <p>{{ evalcrud.observations }}</p>
+          </div>
+
+    </div>
+
+
+  </div>
+</div>
+</div>
+

@@ -1,0 +1,45 @@
+<div class="container">
+
+  <h1>CRUD -Robinson Urquijo Marin</h1>
+
+  <div class="card">
+    <div class="card-header">
+All Data Travels
+    </div>
+    <div class="card-body">
+
+
+
+  <a href="#" routerLink="/evalcrud/create/" class="btn btn-primary">New Register</a>
+<p></p>
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Star Date</th>
+      <th>Passager</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of evalcruds">
+      <td>{{ item.id }}</td>
+      <td>{{ item.startDate }}</td>
+      <td>{{ item.name }}</td>
+      <td>
+        <a href="#" [routerLink]="['/evalcrud/', item.id, 'view']" class="link-info">View</a>
+      </td>
+      <td>
+        <a href="#" [routerLink]="['/evalcrud/', item.id, 'edit']" class="link-warning">Edit</a>
+      </td>
+      <td>
+        <a href="#" (click)="deleteEvalcrud(item.id)" class="link-danger">Delete</a>
+      </td>
+    </tr>
+  </tbody>
+  </table>
+</div>
+
+</div>   </div>
